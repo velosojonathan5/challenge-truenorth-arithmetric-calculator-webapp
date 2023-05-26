@@ -6,6 +6,8 @@ const router = useRouter();
 let email = "";
 let password = "";
 let url = env.baseURL + "/auth/login";
+let urlping = env.baseURL;
+fetch(urlping);
 
 const login = async () => {
   const response = await fetch(url, {

@@ -43,7 +43,7 @@ const calculate = async () => {
         <option value="MULTIPLICATION">Multiplication</option>
         <option value="DIVISION">Division</option>
         <option value="SQUARE_ROOT">Square Root</option>
-        <option value="RANDOM_STRING_GENERATION ">
+        <option value="RANDOM_STRING_GENERATION">
           Random String Generation
         </option>
       </select>
